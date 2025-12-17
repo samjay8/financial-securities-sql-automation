@@ -31,5 +31,3 @@ I developed a modular ETL (Extract, Transform, Load) pipeline to manage the data
 📁 02_Automation_Logic.sql — Core scripts for data consolidation and business rules. 
 📁 03_Reporting_Views.sql — Automated views for risk analysis and end-user reporting.
 
-🔗** Connect with me:**
-🔵 LinkedIn ⭐ GitHub Profile 📧 Email Me
