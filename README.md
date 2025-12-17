@@ -1,33 +1,35 @@
-****Financial Securities Automation (SQL)****
+📂 ****Financial-Securities-SQL-Automation****
 
-**Project Overview**
+**📋 Project Overview** 
+This project demonstrates the automation of high-frequency financial security reporting. At Stanbic IBTC, legacy workflows relied on manual Excel data consolidation, which was prone to latency and human error. I engineered a SQL Server architecture to centralize data and automate the end-to-end reporting lifecycle.
 
-This project demonstrates the automation of financial security reporting. At Stanbic IBTC, legacy reporting was performed manually in Excel, a process that was time-consuming and prone to human error. I engineered a SQL Server system to centralize data and automate these workflows.
+🛠️ **The Solution**
+I developed a modular ETL (Extract, Transform, Load) pipeline to manage the data lifecycle for various financial instruments:
 
-**The Solution**
+◽ Data Organization Designed structured schemas for multiple investment types, including Bonds, OMO (Open Market Operations), and Treasury Bills (NTB).
 
-I developed a modular pipeline to handle the end-to-end data lifecycle:
+◽ Data Integration Leveraged UNION ALL logic to merge fragmented asset tables into a unified "Master View" for a holistic portfolio perspective.
 
-**Data Organization:** Designed structured schemas for various investment types including Bonds, OMO, and Treasury Bills (NTB).
+◽ Business Logic Automation 
+🔹 Tenor Bucketing: Automated categorization of securities based on maturity dates (e.g., Up to 1 Month, 1–3 Months, 5–7 Years). 
+🔹 Position Labeling: Integrated logic to dynamically identify "Long" vs. "Short" positions based on market value. 
+🔹 IRT Analysis: Developed views to calculate Interest Rate Tier (IRT) differences and total market exposure.
 
-**Data Integration:** Utilized UNION ALL logic to merge disparate security tables into a single, unified "Master List" for real-time visibility.
+🚀 **Key Results**
+✅ Efficiency Transformed a process that previously required hours of manual consolidation into a script that executes in seconds.
 
-***Business Intelligence:***
+✅ Accuracy Eliminated manual data-entry risks by centralizing transformation logic within the database layer.
 
-**Tenor Bucketing:** Automated the categorization of investments based on maturity (e.g., 1-Month, 3-Month, 1-Year+).
+✅ Professional Integrity This repository utilizes anonymized dummy data to demonstrate technical architecture while maintaining strict professional confidentiality.
 
-**Position Labeling:** Implemented logic to instantly identify "Long" vs. "Short" positions based on market value.
+💻 **Technical Stack**
+● Database Engine: Microsoft SQL Server (T-SQL) 
+● Core Techniques: Table Architecture, Complex Joins, Union Logic, CASE Statements, and Database Views.
 
-**Key Results**
+📂 **Repository Structure**
+📁 01_Setup.sql — Schema creation and mock data insertion scripts.
+📁 02_Automation_Logic.sql — Core scripts for data consolidation and business rules. 
+📁 03_Reporting_Views.sql — Automated views for risk analysis and end-user reporting.
 
-🚀 **Efficiency:** Reduced reporting turnaround from hours of manual work to seconds.
-
-🎯 **Accuracy:** Eliminated "copy-paste" errors by centralizing logic within the database.
-
-🔒 **Security:** This repository uses anonymized dummy data to demonstrate technical competence while maintaining strict bank confidentiality.
-
-**Technical Stack**
-
-**Engine:** Microsoft SQL Server (T-SQL)
-
-**Core Concepts:** Joins, Unions, Case Statements, Views, and Date Functions.
+🔗** Connect with me:**
+🔵 LinkedIn ⭐ GitHub Profile 📧 Email Me
