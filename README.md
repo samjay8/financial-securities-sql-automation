@@ -1,6 +1,6 @@
-📂 ****Financial-Securities-SQL-Automation****
+# 📂 ****Financial-Securities-SQL-Automation****
 
-**📋 Project Overview** 
+## **📋 Project Overview** 
 This project demonstrates the automation of high-frequency financial security reporting. At Stanbic IBTC, legacy workflows relied on manual Excel data consolidation, which was prone to latency and human error. I engineered a SQL Server architecture to centralize data and automate the end-to-end reporting lifecycle.
 
 🛠️ **The Solution**
