@@ -24,7 +24,7 @@ I developed a modular pipeline to handle the end-to-end data lifecycle:
 
 🎯 **Accuracy:** Eliminated "copy-paste" errors by centralizing logic within the database.
 
-🔒 **Security: **This repository uses anonymized dummy data to demonstrate technical competence while maintaining strict bank confidentiality.
+🔒 **Security:** This repository uses anonymized dummy data to demonstrate technical competence while maintaining strict bank confidentiality.
 
 **Technical Stack**
 
