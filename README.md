@@ -1,25 +1,33 @@
-# financial-securities-sql-automation
+****Financial Securities Automation (SQL)****
 
-**What is this project?**
-This project shows how I used SQL Server to automate financial reporting. At Stanbic IBTC, reports were being done manually in Excel, which was slow and had mistakes. I built a system that does the work automatically.
+**Project Overview**
 
-**How I built it**
-I wrote three main types of scripts to handle the data:
+This project demonstrates the automation of financial security reporting. At Stanbic IBTC, legacy reporting was performed manually in Excel, a process that was time-consuming and prone to human error. I engineered a SQL Server system to centralize data and automate these workflows.
 
-**The Organizer**: I created tables to hold different types of investments like Bonds and Treasury Bills.
+**The Solution**
 
-**The Unifier**: I used UNION commands to join all those separate tables into one big "Master List" so the bank could see everything in one place.
+I developed a modular pipeline to handle the end-to-end data lifecycle:
 
-**The Analyzer**: I wrote logic to automatically "bucket" the data (e.g., seeing which investments expire in 1 month vs. 5 years) and labeled them as "Long" or "Short" positions.
+**Data Organization:** Designed structured schemas for various investment types including Bonds, OMO, and Treasury Bills (NTB).
 
-**The Results**
-**Speed**: What took hours now takes seconds.
+**Data Integration:** Utilized UNION ALL logic to merge disparate security tables into a single, unified "Master List" for real-time visibility.
 
-**Accuracy**: No more "copy-paste" errors from Excel.
+***Business Intelligence:***
 
-Confidentiality: The code here uses dummy data (fake numbers) to show my skills while keeping the bank's real information private.
+**Tenor Bucketing:** Automated the categorization of investments based on maturity (e.g., 1-Month, 3-Month, 1-Year+).
 
-**Tech I Used**
-SQL Server (T-SQL)
+**Position Labeling:** Implemented logic to instantly identify "Long" vs. "Short" positions based on market value.
 
-**Logic**: Joins, Unions, Case Statements, and Views.
+**Key Results**
+
+🚀 **Efficiency:** Reduced reporting turnaround from hours of manual work to seconds.
+
+🎯 **Accuracy:** Eliminated "copy-paste" errors by centralizing logic within the database.
+
+🔒 **Security: **This repository uses anonymized dummy data to demonstrate technical competence while maintaining strict bank confidentiality.
+
+**Technical Stack**
+
+**Engine:** Microsoft SQL Server (T-SQL)
+
+**Core Concepts:** Joins, Unions, Case Statements, Views, and Date Functions.
