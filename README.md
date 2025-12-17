@@ -19,6 +19,7 @@ I developed a modular ETL (Extract, Transform, Load) pipeline to manage the data
 🔹 IRT Analysis: Developed views to calculate Interest Rate Tier (IRT) differences and total market exposure.
 
 🚀 **Key Results**
+
 ✅ Efficiency Transformed a process that previously required hours of manual consolidation into a script that executes in seconds.
 
 ✅ Accuracy Eliminated manual data-entry risks by centralizing transformation logic within the database layer.
