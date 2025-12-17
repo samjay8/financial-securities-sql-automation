@@ -45,6 +45,7 @@ I developed a modular ETL (Extract, Transform, Load) pipeline to manage the data
 
 
 **Connect with me:**
+
 🔵 [Linkedin](www.linkedin.com/in/samuel-ojetunde)
 
 ⭐ [Email](samuelojetunde898@gmail.com)
